@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section id="services" className={`py-10 bg-[#2d2413]`}>
       <div className={maxWidth}>
-        <div className="max-md:flex-col flex gap-6 max-md:px-5 max-sm:text-justify">
+        <div className="max-md:flex-col flex gap-6 max-md:px-5 max-sm:text-justify mb-10">
           <div className="flex-[2]">
             <SectionHeader title={"services"} />{" "}
             <div className="max-md:flex-col flex gap-6">
@@ -127,7 +127,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <HashLink smooth to="#top" className="text-nav font-bold">
+        <HashLink smooth to="#top" className="text-content-heading font-bold">
           Return to top
         </HashLink>
       </div>

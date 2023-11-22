@@ -1,7 +1,7 @@
 [
   {
     "title": "Fruit burst",
-    "description": "Developed a comprehensive social media analytics tool using Python and Django, incorporating data scraping, sentiment analysis, and interactive data visualization for insights.",
+    "description": "Your Ultimate Fruit Destination! Fresh, seasonal produce showcased with recipes, nutritional insights, and tips for a healthy lifestyle. Dive into fruity goodness!",
     "image": "https://i.ibb.co/931MF7H/fruit-burst-mnh-netlify-app.jpg",
     "duration": "5 months",
     "project": {
@@ -11,7 +11,7 @@
   },
   {
     "title": "Mogo",
-    "description": "Built a scalable online food delivery platform with Angular for the frontend and Express.js for the backend. Features include real-time order tracking and payment integration.",
+    "description": "Empowering Financial Freedom. Innovative financial solutions and tools for budgeting, credit monitoring, and personal loans, simplifying your path to financial well-being",
     "image": "https://i.ibb.co/BBtJQmQ/mogo.jpg",
     "duration": "6 months",
     "project": {
@@ -21,7 +21,7 @@
   },
   {
     "title": "Dragon News",
-    "description": "Implemented an AI-powered chatbot using TensorFlow and Python. The chatbot incorporates natural language processing (NLP) and deep learning algorithms for advanced conversational capabilities.",
+    "description": "Roaring Headlines Unleashed! Breaking news, captivating stories, and in-depth analysis covering global events with a fiery touch. Stay informed, ignite curiosity",
     "image": "https://i.ibb.co/FWTqN6W/react-dragon-news-38e6d-web-app.jpg",
     "duration": "4.5 months",
     "project": {
@@ -31,7 +31,7 @@
   },
   {
     "title": "Summer Sale",
-    "description": "Created a robust event management system utilizing React for the frontend, Node.js for the backend, and MongoDB for database management. The system supports event scheduling and attendee management.",
+    "description": "Summer Sale Extravaganza! Unbeatable discounts, hot deals on fashion, electronics, and more. Limited time offers to make your summer sizzle!",
     "image": "https://i.ibb.co/nRG1WGL/Web-capture-22-11-2023-114123-summer-sale-mnh-netlify-app.jpg",
     "duration": "3.5 months",
     "project": {
@@ -43,7 +43,7 @@
   },
   {
     "title": "Poset Database",
-    "description": "Designed and developed a sleek portfolio website using HTML, CSS, and JavaScript. The website showcases projects, skills, and contact information in an interactive manner.",
+    "description": "Your Complete Pose Reference! A comprehensive collection of diverse poses for artists, models, and photographers. Explore, reference, and perfect your artistry",
     "image": "https://i.ibb.co/KjMYYxz/poset-database-mnh-netlify-app.jpg",
     "duration": "1.5 months",
     "project": {
@@ -53,7 +53,7 @@
   },
   {
     "title": "Career Maker",
-    "description": "Built an e-learning platform with Vue.js for the frontend and Flask for the backend. The platform includes course management, quizzes, and user progress tracking.",
+    "description": "Forge Your Professional Path! Expert guidance, resources, and tools for career development, job hunting, and skill enhancement. Elevate your career aspirations!",
     "image": "https://i.ibb.co/DVGDTvw/career-maker-client-web-app.jpg",
     "duration": "5 months",
     "project": {
@@ -66,7 +66,7 @@
   },
   {
     "title": "Flower Shop",
-    "description": "Developed a healthcare app using React Native and Firebase. Features include appointment scheduling, health tracking, and secure user data storage.",
+    "description": "Blooms & Petals: Your Floral Haven! Exquisite bouquets, personalized arrangements, and garden delights for every occasion. Embrace nature's beauty with our floral artistry",
     "image": "https://i.ibb.co/pLm51Bx/flower-shop-mnh-netlify-app.jpg",
     "duration": "4 months",
     "project": {
@@ -75,33 +75,30 @@
     }
   },
   {
-    "title": "Course Registration",
-    "description": "Created a real estate management system with Angular for the frontend, Node.js for the backend, and MySQL for database management. Supports property listings and user profiles.",
+    "title": "Developer Portfolio",
+    "description": "Coding Canvas: Explore My Developer Portfolio! Showcase of projects, skills, and passion for web development, design, and tech innovations. Crafting digital experiences, one line at a time.",
     "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
     "duration": "6 months",
     "project": {
-      "repo": [
-        "https://github.com/Md-Neamul-Hoqe/developer-portfolio"
-      ],
+      "repo": ["https://github.com/Md-Neamul-Hoqe/developer-portfolio"],
       "live": "https://md-neamul-hoqe.github.io/developer-portfolio"
     }
   },
   {
-    "title": "Course Registration",
-    "description": "Created a real estate management system with Angular for the frontend, Node.js for the backend, and MySQL for database management. Supports property listings and user profiles.",
-    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "title": "Delightful Mermaid G.O.A.T",
+    "description": "Delightful Mermaid G.O.A.T: Unveiling Oceanic Wonders! Discover enchanting tales, majestic sea creatures, and eco-conscious adventures in this mermaid-inspired treasure trove.",
+    "image": "https://i.ibb.co/hRvK872/delightful-mermaid-ffa021-netlify-app.jpg",
     "duration": "6 months",
     "project": {
-      "repo": [
-        "https://github.com/programming-hero-web-course2/my-course-roster-Md-Neamul-Hoqe"
-      ],
-      "live": "https://course-registration-mnh.surge.sh"
+      "repo": ["https://github.com/Md-Neamul-Hoqe/gamer"],
+      "live": "https://delightful-mermaid-ffa021.netlify.app"
     }
   },
+
   {
     "title": "Donation Campaign",
-    "description": "Developed a travel planning application using Flutter for mobile app development, integrating Google Maps API for route planning and trip organization.",
-    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "description": "Empower Change: Join Our Donation Campaign! Supporting causes that matter. Make a difference today - every contribution counts toward a brighter tomorrow.",
+    "image": "https://i.ibb.co/s2FMs4z/donation-campaign-mnh-surge-sh.jpg",
     "duration": "3.5 months",
     "project": {
       "repo": [
@@ -111,9 +108,21 @@
     }
   },
   {
+    "title": "Course Registration",
+    "description": "Unlock Knowledge: Seamless Course Registration! Browse, select, and enroll in diverse courses. Start your educational journey hassle-free. Embrace learning, effortlessly.",
+    "image": "https://i.ibb.co/zNCwsBk/course-registration-mnh-surge-sh.jpg",
+    "duration": "6 months",
+    "project": {
+      "repo": [
+        "https://github.com/programming-hero-web-course2/my-course-roster-Md-Neamul-Hoqe"
+      ],
+      "live": "https://course-registration-mnh.surge.sh"
+    }
+  },
+  {
     "title": "Education Event Management",
-    "description": "Developed a travel planning application using Flutter for mobile app development, integrating Google Maps API for route planning and trip organization.",
-    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "description": "Education Event Mastery: Plan, Organize, and Excel! Seamlessly manage educational events, workshops, and conferences. Empower learners through seamless, impactful experiences.",
+    "image": "https://i.ibb.co/RT8rYpy/education-event-management-web-app.jpg",
     "duration": "3.5 months",
     "project": {
       "repo": [

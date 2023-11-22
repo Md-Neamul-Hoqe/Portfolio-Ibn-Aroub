@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#362914] text-white min-h-max;
+  @apply bg-[#362914] text-white min-h-max font-mono;
 }
 
 .overlay {
@@ -26,18 +26,19 @@ a.active {
 .isActive {
   @apply bg-red-600 !important;
 }
-.react-tabs {
-  @apply text-center !important;
+
+#Tools-list {
+  @apply list-decimal list-inside text-base grid grid-cols-2 gap-x-96 whitespace-nowrap;
 }
 
-.react-tabs__tab-list {
-  @apply text-2xl font-medium border-0 mb-10 !important;
+#Tools-list > li::first-line {
+  @apply font-bold p-2;
 }
 
-.react-tabs__tab {
-  @apply border-0 !important;
+#Tools-list > li::first-letter {
+  @apply text-nav text-xl;
 }
 
-.react-tabs__tab--selected {
-  @apply text-yellow-600 font-bold underline underline-offset-8 !important;
+#Tools-list  ul {
+  @apply pl-5 list-disc;
 }

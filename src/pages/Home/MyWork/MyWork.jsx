@@ -66,7 +66,7 @@ const MyWork = () => {
                                   return (
                                     <div
                                       key={idx}
-                                      className="border w-full p-1 my-0.5">
+                                      className="border w-full p-1 my-0.5 overflow-x-auto">
                                       {project[`'${linkType}'`]?.length ? (
                                         project[`'${linkType}'`]?.map(
                                           (link, index) => (
@@ -102,7 +102,7 @@ const MyWork = () => {
               <div className="w-full text-center py-10">
                 <button
                   onClick={() => setProjectLength(projects?.length)}
-                  className="btn bg-gradient-to-r from-nav to-white border-0">
+                  className="btn text-content-heading hover:bg-transparent glass">
                   Show All
                 </button>
               </div>

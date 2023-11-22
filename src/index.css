@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#362914] text-white min-h-max font-mono;
+  @apply text-white min-h-max font-mono;
 }
 
 .overlay {
@@ -28,17 +28,17 @@ a.active {
 }
 
 #Tools-list {
-  @apply list-decimal list-inside text-base grid grid-cols-2 gap-x-96 whitespace-nowrap;
+  @apply list-decimal list-inside text-base grid grid-cols-1 sm:grid-cols-2 gap-5 md:whitespace-nowrap;
 }
 
 #Tools-list > li::first-line {
-  @apply font-bold p-2;
+  @apply font-bold pt-5;
 }
 
 #Tools-list > li::first-letter {
   @apply text-nav text-xl;
 }
 
-#Tools-list  ul {
-  @apply pl-5 list-disc;
+#Tools-list ul {
+  @apply pl-10 list-disc;
 }

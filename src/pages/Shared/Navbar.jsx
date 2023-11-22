@@ -46,8 +46,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <>
-      <div className={`navbar px-0 text-nav sticky py-5 ${maxWidth}`}>
+    <nav className={`bg-[#362914] py-5`}>
+      <div className={`navbar text-nav px-0 ${maxWidth}`}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -67,12 +67,12 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+              className="menu menu-sm dropdown-content mt-6 z-[1] p-2 shadow-inner border border-nav bg-[#362914] rounded-lg w-52">
               {NavLinks}
             </ul>
           </div>
           <Link to="/" className="text-xl flex flex-col">
-            <span className="uppercase text-3xl tracking-[0.3em] text-main">
+            <span className="uppercase text-3xl tracking-[0.3em] text-main whitespace-nowrap">
               Ibn Aroub
             </span>
             <span className="titling-caps uppercase text-xs italic tracking-[0.4em]">
@@ -84,7 +84,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 text-xl">{NavLinks}</ul>
         </div>
       </div>
-    </>
+    </nav>
   );
 };
 

@@ -20,8 +20,8 @@ const AboutMe = () => {
           backgroundSize: "100%",
         }}>
         <div className="overlay">
-          <div className={`flex gap-6 pt-[100px] py-12 ${maxWidth}`}>
-            <div className={`flex-1`}>
+          <div className={`md:flex gap-6 py-12 max-sm:px-5 max-sm:text-justify ${maxWidth}`}>
+            <div className="flex-1">
               <div>
                 <SectionHeader title={"About me"} />
               </div>
@@ -61,11 +61,11 @@ const AboutMe = () => {
                   consequat non orci. Proin dapibus pretium augue non convallis.
                   Aliquam sit amet nisi nec arcu bibendum imperdiet.{" "}
                 </p>
-                <div className="flex">
+                <div className="md:flex">
                   <figure className="flex-1 p-5">
                     <img className="w-full" src={hireMe} alt="Hire Me" />
                   </figure>
-                  <div className=" flex-1">
+                  <div className="flex-1">
                     <p className="text-sm font-mono mb-5">
                       Duis eleifend accumsan ligula, suscipit viverra mi tempus
                       sed. Vestibulum ante ipsum primis in faucibus orci luctus

@@ -1,4 +1,4 @@
-# Ibn Aroub Portfolio
+# [Ibn Aroub Portfolio](http://ibn-aroub-portfolio.surge.sh/)
 
 This project is a personal portfolio website for Ibn Aroub built using Vite. It showcases Ibn Aroub's skills, projects, and other relevant information.
 

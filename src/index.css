@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@400;500;600;800&family=Raleway:wght@600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#362914] text-white min-h-max;
+}
+
+.overlay {
+  @apply bg-[#362914]/80 h-full w-full;
+}
+
+#my-work {
+  @apply bg-[#201b0e];
+}
+
+:root {
+  @apply p-0 m-0 box-border font-raleway;
+}
+
+a.active {
+  @apply bg-transparent text-main !important;
+}
+
+.isActive {
+  @apply bg-red-600 !important;
+}
+.react-tabs {
+  @apply text-center !important;
+}
+
+.react-tabs__tab-list {
+  @apply text-2xl font-medium border-0 mb-10 !important;
+}
+
+.react-tabs__tab {
+  @apply border-0 !important;
+}
+
+.react-tabs__tab--selected {
+  @apply text-yellow-600 font-bold underline underline-offset-8 !important;
+}

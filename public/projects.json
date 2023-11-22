@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Fruit burst",
+    "description": "Developed a comprehensive social media analytics tool using Python and Django, incorporating data scraping, sentiment analysis, and interactive data visualization for insights.",
+    "image": "https://i.ibb.co/931MF7H/fruit-burst-mnh-netlify-app.jpg",
+    "duration": "5 months",
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/fruit-burst"],
+      "live": "https://fruit-burst-mnh.netlify.app"
+    }
+  },
+  {
+    "title": "Mogo",
+    "description": "Built a scalable online food delivery platform with Angular for the frontend and Express.js for the backend. Features include real-time order tracking and payment integration.",
+    "image": "https://i.ibb.co/BBtJQmQ/mogo.jpg",
+    "duration": "6 months",
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/mogo"],
+      "live": "https://md-neamul-hoqe.github.io/mogo"
+    }
+  },
+  {
+    "title": "Dragon News",
+    "description": "Implemented an AI-powered chatbot using TensorFlow and Python. The chatbot incorporates natural language processing (NLP) and deep learning algorithms for advanced conversational capabilities.",
+    "image": "https://i.ibb.co/FWTqN6W/react-dragon-news-38e6d-web-app.jpg",
+    "duration": "4.5 months",
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/dragon-news"],
+      "live": "https://react-dragon-news-38e6d.web.app"
+    }
+  },
+  {
+    "title": "Summer Sale",
+    "description": "Created a robust event management system utilizing React for the frontend, Node.js for the backend, and MongoDB for database management. The system supports event scheduling and attendee management.",
+    "image": "https://i.ibb.co/nRG1WGL/Web-capture-22-11-2023-114123-summer-sale-mnh-netlify-app.jpg",
+    "duration": "3.5 months",
+    "project": {
+      "repo": [
+        "https://github.com/Programming-Hero-Web-Course4/b8a5-summer-sale-Md-Neamul-Hoqe"
+      ],
+      "live": "https://summer-sale-mnh.netlify.app"
+    }
+  },
+  {
+    "title": "Poset Database",
+    "description": "Designed and developed a sleek portfolio website using HTML, CSS, and JavaScript. The website showcases projects, skills, and contact information in an interactive manner.",
+    "image": "https://i.ibb.co/KjMYYxz/poset-database-mnh-netlify-app.jpg",
+    "duration": "1.5 months",
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/poset-database"],
+      "live": "https://poset-database-mnh.netlify.app"
+    }
+  },
+  {
+    "title": "Career Maker",
+    "description": "Built an e-learning platform with Vue.js for the frontend and Flask for the backend. The platform includes course management, quizzes, and user progress tracking.",
+    "image": "https://i.ibb.co/DVGDTvw/career-maker-client-web-app.jpg",
+    "duration": "5 months",
+    "project": {
+      "repo": [
+        "https://github.com/Porgramming-Hero-web-course/b8a11-client-side-Md-Neamul-Hoqe",
+        "https://github.com/Porgramming-Hero-web-course/b8a11-server-side-Md-Neamul-Hoqe"
+      ],
+      "live": "https://ass-11-career-maker-client.web.app"
+    }
+  },
+  {
+    "title": "Flower Shop",
+    "description": "Developed a healthcare app using React Native and Firebase. Features include appointment scheduling, health tracking, and secure user data storage.",
+    "image": "https://i.ibb.co/pLm51Bx/flower-shop-mnh-netlify-app.jpg",
+    "duration": "4 months",
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/Flower-Shop"],
+      "live": "https://flower-shop-mnh.netlify.app"
+    }
+  },
+  {
+    "title": "Course Registration",
+    "description": "Created a real estate management system with Angular for the frontend, Node.js for the backend, and MySQL for database management. Supports property listings and user profiles.",
+    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "duration": "6 months",
+    "project": {
+      "repo": [
+        "https://github.com/Md-Neamul-Hoqe/developer-portfolio"
+      ],
+      "live": "https://md-neamul-hoqe.github.io/developer-portfolio"
+    }
+  },
+  {
+    "title": "Course Registration",
+    "description": "Created a real estate management system with Angular for the frontend, Node.js for the backend, and MySQL for database management. Supports property listings and user profiles.",
+    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "duration": "6 months",
+    "project": {
+      "repo": [
+        "https://github.com/programming-hero-web-course2/my-course-roster-Md-Neamul-Hoqe"
+      ],
+      "live": "https://course-registration-mnh.surge.sh"
+    }
+  },
+  {
+    "title": "Donation Campaign",
+    "description": "Developed a travel planning application using Flutter for mobile app development, integrating Google Maps API for route planning and trip organization.",
+    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "duration": "3.5 months",
+    "project": {
+      "repo": [
+        "https://github.com/programming-hero-web-course-4/b8a8-donation-campaign-Md-Neamul-Hoqe"
+      ],
+      "live": "https://donation-campaign-mnh.surge.sh"
+    }
+  },
+  {
+    "title": "Education Event Management",
+    "description": "Developed a travel planning application using Flutter for mobile app development, integrating Google Maps API for route planning and trip organization.",
+    "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
+    "duration": "3.5 months",
+    "project": {
+      "repo": [
+        "https://github.com/programming-hero-web-course-4/b8a9-event-management-Md-Neamul-Hoqe"
+      ],
+      "live": "https://education-event-management.web.app"
+    }
+  }
+]

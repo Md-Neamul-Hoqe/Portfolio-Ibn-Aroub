@@ -96,7 +96,7 @@ const Services = () => {
               </ol>
             </div>
           </div>
-          <div className="md:flex-1">
+          <div className="md:flex-1" id="contact-me">
             <SectionHeader title="Contact" />
             <div>
               <p>
@@ -106,7 +106,7 @@ const Services = () => {
                 also find me on several social networking sites, my profiles are
                 listed below.
               </p>
-              <address className="border rounded-box p-5 my-4">
+              <address className="border rounded-box p-5 my-4 overflow-x-auto">
                 <p>
                   <strong className="italic">Email: </strong>
                   <a href="mailto:hoqe1997@gmail.com">hoqe1997@gmail.com</a>

@@ -1,11 +1,11 @@
 # [Ibn Aroub Portfolio](http://ibn-aroub-portfolio.surge.sh/)
 
-This project is a personal portfolio website for Ibn Aroub built using Vite. It showcases Ibn Aroub's skills, projects, and other relevant information.
+This project is a personal portfolio website for Ibn Aroub (me) built using Vite. It showcases Ibn Aroub's skills, projects, and other relevant information. There is no database being used in version 0.0.0. For data fetching, we utilize JSON-formatted data in the public folder.
 
 ## Project Structure
 
 - `src/`: Contains the source code for the project.
-- `public/`: Contains static assets and HTML entry file.
+- `public/`: Contains JSON formatted data.
 
 ## Installation
 
@@ -15,7 +15,7 @@ This project is a personal portfolio website for Ibn Aroub built using Vite. It 
    git clone https://github.com/your-username/Ibn-Aroub-Portfolio.git
    ```
 
-2. Install dependencies:
+2. Install dependencies: [before installation please check the folder name is "Ibn-Aroub-Portfolio" (may suffix with main)]
 
    ```bash
    cd Ibn-Aroub-Portfolio
@@ -26,16 +26,15 @@ This project is a personal portfolio website for Ibn Aroub built using Vite. It 
 
 The following npm packages were utilized in this project:
 
-- **@tanstack/react-query**: v5.8.4
-- **axios**: v1.6.2
-- **firebase**: v10.6.0
+- **@tanstack/react-query**: v5.8.4 for handle side effect
+- **axios**: v1.6.2 to handle data fetching
+- **react-router-hash-link**: v2.4.3 to linking sections to navbar
+<!-- - **react-helmet-async**: v2.0.0  -->
 - **localforage**: v1.10.0
 - **match-sorter**: v6.3.1
 - **react**: v18.2.0
 - **react-dom**: v18.2.0
-- **react-helmet-async**: v2.0.0
 - **react-router-dom**: v6.19.0
-- **react-router-hash-link**: v2.4.3
 - **sort-by**: v0.0.2
 
 ## Usage
@@ -57,7 +56,6 @@ npm run build
 ```
 
 This will generate optimized production-ready files in the `dist/` directory.
-
 
 ## Deployment
 

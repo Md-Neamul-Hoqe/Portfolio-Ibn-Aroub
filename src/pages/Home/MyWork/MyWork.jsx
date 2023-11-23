@@ -61,8 +61,6 @@ const MyWork = () => {
                           <div className="card-actions justify-start">
                             {Object.keys(project)?.length
                               ? Object.keys(project)?.map((linkType, idx) => {
-                                  console.table(linkType);
-                                  console.log(project[linkType]);
                                   return (
                                     <div
                                       key={idx}

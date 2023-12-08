@@ -61,29 +61,37 @@ const MyWork = () => {
                           <div className="card-actions justify-start">
                             {Object.keys(project)?.length
                               ? Object.keys(project)?.map((linkType, idx) => {
+                                  console.log(project[linkType]);
+
                                   return (
                                     <div
                                       key={idx}
                                       className="border w-full p-1 my-0.5 overflow-x-auto">
-                                      {project[`'${linkType}'`]?.length ? (
-                                        project[`'${linkType}'`]?.map(
-                                          (link, index) => (
-                                            <Link
-                                              key={index}
-                                              to={link}
-                                              className="hover:underline">
-                                              {link}
-                                            </Link>
-                                          )
-                                        )
-                                      ) : project[linkType] !== undefined ? (
+                                      {linkType === "live" ? (
                                         <Link
                                           to={project[linkType]}
-                                          className="hover:underline">
-                                          {project[linkType]}
+                                          className="hover:underline underline-offset-4">
+                                          Live link
+                                        </Link>
+                                      ) : project[linkType]?.length === 1 ? (
+                                        <Link
+                                          to={project[linkType][0]}
+                                          className="hover:underline underline-offset-4">
+                                          GitHub Link
                                         </Link>
                                       ) : (
-                                        `No link of ${linkType} found`
+                                        <>
+                                          <Link
+                                            to={project[linkType][0]}
+                                            className="hover:underline underline-offset-4 pr-5">
+                                            Client Side Link
+                                          </Link>
+                                          <Link
+                                            to={project[linkType][1]}
+                                            className="hover:underline underline-offset-4">
+                                            Server Side Link
+                                          </Link>
+                                        </>
                                       )}
                                     </div>
                                   );

@@ -1,0 +1,192 @@
+[
+  {
+    "name": "JavaScript",
+    "image": "https://example.com/javascript.png",
+    "projects": [
+      {
+        "name": "Weather App",
+        "description": "A weather application utilizing JavaScript and fetching data from an API.",
+        "live_link": "https://example.com/weather_app_live",
+        "code_link": "https://github.com/js_weather_app"
+      },
+      {
+        "name": "Task Manager",
+        "description": "A task management application developed with vanilla JavaScript.",
+        "live_link": "https://example.com/task_manager_live",
+        "code_link": "https://github.com/js_task_manager"
+      }
+    ],
+    "industry": "Web Development"
+  },
+  {
+    "name": "HTML/CSS",
+    "image": "https://example.com/html_css.png",
+    "projects": [
+      {
+        "name": "Personal Blog",
+        "description": "A personal blog website designed using HTML5 and CSS3 for styling.",
+        "live_link": "https://example.com/personal_blog_live",
+        "code_link": "https://github.com/html_personal_blog"
+      },
+      {
+        "name": "Restaurant Website",
+        "description": "A restaurant website with responsive design using HTML and CSS.",
+        "live_link": "https://example.com/restaurant_website_live",
+        "code_link": "https://github.com/html_restaurant"
+      }
+    ],
+    "industry": "Web Development"
+  },
+  {
+    "name": "Git",
+    "image": "https://example.com/git.png",
+    "projects": [
+      {
+        "name": "Version Control Project",
+        "description": "A demonstration project highlighting the use of Git for version control.",
+        "live_link": "https://example.com/version_control_live",
+        "code_link": "https://github.com/git_version_control"
+      },
+      {
+        "name": "Collaborative Repository",
+        "description": "A collaborative repository managed with Git for team development.",
+        "live_link": "https://example.com/collaborative_repo_live",
+        "code_link": "https://github.com/git_collaborative"
+      }
+    ],
+    "industry": "Version Control"
+  },
+  {
+    "name": "Github",
+    "image": "https://example.com/github.png",
+    "projects": [
+      {
+        "name": "Open Source Contributions",
+        "description": "Contributions to various open-source projects hosted on GitHub.",
+        "live_link": "https://example.com/open_source_contributions",
+        "code_link": "https://github.com/user_contributions"
+      },
+      {
+        "name": "GitHub Portfolio",
+        "description": "A portfolio showcasing projects hosted on GitHub repositories.",
+        "live_link": "https://example.com/github_portfolio",
+        "code_link": "https://github.com/user_portfolio"
+      }
+    ],
+    "industry": "Collaborative Development"
+  },
+  {
+    "name": "PHP",
+    "image": "https://example.com/php.png",
+    "projects": [
+      {
+        "name": "CMS System",
+        "description": "Content Management System developed using PHP for dynamic content.",
+        "live_link": "https://example.com/cms_system_live",
+        "code_link": "https://github.com/php_cms"
+      },
+      {
+        "name": "User Authentication",
+        "description": "Implementation of secure user authentication features using PHP.",
+        "live_link": "https://example.com/user_auth_live",
+        "code_link": "https://github.com/php_user_auth"
+      }
+    ],
+    "industry": "Web Development"
+  },
+  {
+    "name": "MySQLi",
+    "image": "https://example.com/mysqli.png",
+    "projects": [
+      {
+        "name": "Database Driven Website",
+        "description": "A dynamic website powered by MySQLi database for data storage.",
+        "live_link": "https://example.com/db_driven_website_live",
+        "code_link": "https://github.com/mysqli_website"
+      },
+      {
+        "name": "E-commerce Database",
+        "description": "Database schema design for an e-commerce platform using MySQLi.",
+        "live_link": "https://example.com/ecommerce_db_live",
+        "code_link": "https://github.com/mysqli_ecommerce"
+      }
+    ],
+    "industry": "Database Management"
+  },
+  {
+    "name": "MongoDB",
+    "image": "https://example.com/mongodb.png",
+    "projects": [
+      {
+        "name": "Blog API with MongoDB",
+        "description": "A RESTful API for a blog using MongoDB as the database.",
+        "live_link": "https://example.com/blog_api_mongodb_live",
+        "code_link": "https://github.com/mongodb_blog_api"
+      },
+      {
+        "name": "E-commerce Database",
+        "description": "Database schema design for an e-commerce platform using MongoDB.",
+        "live_link": "https://example.com/ecommerce_db_live",
+        "code_link": "https://github.com/mongodb_ecommerce"
+      }
+    ],
+    "industry": "Database Management"
+  },
+  {
+    "name": "ExpressJS",
+    "image": "https://example.com/expressjs.png",
+    "projects": [
+      {
+        "name": "Express Blog",
+        "description": "A simple blog application built with ExpressJS for backend.",
+        "live_link": "https://example.com/express_blog_live",
+        "code_link": "https://github.com/express_blog"
+      },
+      {
+        "name": "API Development",
+        "description": "Development of RESTful APIs using ExpressJS for web services.",
+        "live_link": "https://example.com/api_dev_live",
+        "code_link": "https://github.com/express_api_dev"
+      }
+    ],
+    "industry": "Web Development"
+  },
+  {
+    "name": "Tailwindcss with DaisyUI",
+    "image": "https://example.com/tailwind_daisyui.png",
+    "projects": [
+      {
+        "name": "Tailwind CSS Project A",
+        "description": "A web application styled with Tailwind CSS and DaisyUI components.",
+        "live_link": "https://example.com/tailwind_project_a_live",
+        "code_link": "https://github.com/tailwind_project_a"
+      },
+      {
+        "name": "DaisyUI Template",
+        "description": "Creation of a template using DaisyUI for rapid web development.",
+        "live_link": "https://example.com/daisyui_template_live",
+        "code_link": "https://github.com/daisyui_template"
+      }
+    ],
+    "industry": "Frontend Development"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "https://example.com/bootstrap.png",
+    "projects": [
+      {
+        "name": "Bootstrap Landing Page",
+        "description": "A landing page designed and developed using Bootstrap framework.",
+        "live_link": "https://example.com/bootstrap_page_live",
+        "code_link": "https://github.com/bootstrap_page"
+      },
+      {
+        "name": "Bootstrap Portfolio",
+        "description": "A portfolio website styled with Bootstrap for responsive design.",
+        "live_link": "https://example.com/bootstrap_portfolio_live",
+        "code_link": "https://github.com/bootstrap_portfolio"
+      }
+    ],
+    "industry": "Frontend Development"
+  }
+]

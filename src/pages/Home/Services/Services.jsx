@@ -15,19 +15,20 @@ const Services = () => {
               <div className="flex-[1]">
                 <h4 className="text-nav mb-1">Web Design</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  quis posuere enim. Etiam ipsum odio, interdum quis lobortis
-                  eu, consequat non orci. Proin dapibus pretium augue non
-                  convallis.{" "}
+                  We understand the importance of user experience (UX) and user
+                  interface (UI) design in engaging visitors. Our designs are
+                  not just visually appealing but also intuitive and easy to
+                  navigate, maximizing user engagement and conversions.
                 </p>
               </div>
               <div className="flex-[1]">
                 <h4 className="text-nav mb-1">Web Development</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  quis posuere enim. Etiam ipsum odio, interdum quis lobortis
-                  eu, consequat non orci. Proin dapibus pretium augue non
-                  convallis.{" "}
+                  My services encompass full-stack development, ensuring
+                  seamless functionality and engaging user experiences. From
+                  conceptualization to deployment, I collaborate closely with
+                  clients to understand their objectives and deliver innovative
+                  solutions that surpass expectations.
                 </p>
               </div>
             </div>
@@ -106,23 +107,20 @@ const Services = () => {
                 also find me on several social networking sites, my profiles are
                 listed below.
               </p>
-              <address className="border rounded-box p-5 my-4 overflow-x-auto">
-                <p>
-                  <strong className="italic">Email: </strong>
-                  <a href="mailto:hoqe1997@gmail.com">hoqe1997@gmail.com</a>
-                </p>
-                <p>
-                  <strong className="italic">LinkedIn: </strong>
-                  <a href="https://www.linkedin.com/in/muhammad-neamul-hoqe-ibn-aroub-69a40429b/">
-                    https://www.linkedin.com/in/muhammad-neamul-hoqe-ibn-aroub-69a40429b/
-                  </a>
-                </p>
-                <p>
-                  <strong className="italic">Facebook: </strong>
-                  <a href="https://www.facebook.com/mdneamulhoqe.neamul">
-                    https://www.facebook.com/mdneamulhoqe.neamul
-                  </a>
-                </p>
+              <address className="border rounded-box p-5 my-4 overflow-x-auto flex flex-wrap gap-6">
+                  <strong className="italic">
+                    <a className="hover:underline underline-offset-4" href="mailto:hoqe1997@gmail.com">Email</a>
+                  </strong>
+                  <strong className="italic">
+                    <a className="hover:underline underline-offset-4" href="https://www.linkedin.com/in/muhammad-neamul-hoqe-ibn-aroub-69a40429b/">
+                      LinkedIn
+                    </a>
+                  </strong>
+                  <strong className="italic">
+                    <a className="hover:underline underline-offset-4" href="https://www.facebook.com/mdneamulhoqe.neamul">
+                      Facebook
+                    </a>
+                  </strong>
               </address>
             </div>
           </div>

@@ -1,0 +1,80 @@
+{
+    "header": {
+      "name": "Your Name",
+      "title": "Web Developer | Mathematician"
+    },
+    "sections": [
+      {
+        "id": "about",
+        "title": "About Me",
+        "content": [
+          "Student in Mathematics at SUST from 2016 to 2023. Completed Honours and Masters.",
+          "Inspired to pursue web development. Completed MERN Stack course at Programming Hero."
+        ]
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "content": [
+          {
+            "degree": "MSc in Mathematics",
+            "institution": "SUST",
+            "years": "2016 - 2023",
+            "description": "Focus on Hyperbolic (wave) equation and Poset Database research."
+          },
+          {
+            "degree": "BSc in Mathematics",
+            "institution": "SUST",
+            "years": "2016 - 2020",
+            "description": "Strong foundation in mathematics."
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "Web Development Skills",
+        "categories": [
+          {
+            "category": "Front-end Development",
+            "skills": ["HTML, CSS, JavaScript", "React, Vue, Angular", "UI/UX Design"]
+          },
+          {
+            "category": "Back-end Development",
+            "skills": ["Node.js, Express.js", "Database Management", "RESTful APIs"]
+          },
+          {
+            "category": "Tools",
+            "skills": ["Git, GitHub", "Package Managers", "Build Tools", "Code Editors"]
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Projects",
+        "projects": [
+          {
+            "name": "Project Name 1",
+            "description": "Description of the project goes here.",
+            "technologies": ["HTML, CSS, JavaScript, React"],
+            "link": "#"
+          },
+          {
+            "name": "Project Name 2",
+            "description": "Description of the project goes here.",
+            "technologies": ["HTML, CSS, JavaScript, Node.js"],
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "contactInfo": [
+          { "method": "Email", "value": "your.email@example.com" },
+          { "method": "LinkedIn", "value": "Your LinkedIn Profile" },
+          { "method": "GitHub", "value": "Your GitHub Profile" }
+        ]
+      }
+    ]
+  }
+  

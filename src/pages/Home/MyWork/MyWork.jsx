@@ -69,12 +69,16 @@ const MyWork = () => {
                                       className="border w-full p-1 my-0.5 overflow-x-auto">
                                       {linkType === "live" ? (
                                         <Link
+                                          target="_blank"
+                                          rel="noreferrer"
                                           to={project[linkType]}
                                           className="hover:underline underline-offset-4">
                                           Live link
                                         </Link>
                                       ) : project[linkType]?.length === 1 ? (
                                         <Link
+                                          target="_blank"
+                                          rel="noreferrer"
                                           to={project[linkType][0]}
                                           className="hover:underline underline-offset-4">
                                           GitHub Link
@@ -82,11 +86,15 @@ const MyWork = () => {
                                       ) : (
                                         <>
                                           <Link
+                                            target="_blank"
+                                            rel="noreferrer"
                                             to={project[linkType][0]}
                                             className="hover:underline underline-offset-4 pr-5">
                                             Client Side Link
                                           </Link>
                                           <Link
+                                            target="_blank"
+                                            rel="noreferrer"
                                             to={project[linkType][1]}
                                             className="hover:underline underline-offset-4">
                                             Server Side Link

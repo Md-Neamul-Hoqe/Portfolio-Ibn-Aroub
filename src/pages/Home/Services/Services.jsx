@@ -84,7 +84,7 @@ const Services = () => {
                   <ul>
                     <li>Chrome DevTools Device Mode</li>
                     <li>
-                      <a href="https://ui.dev/amiresponsive">AmiResponsive</a>
+                      <a target="_blank" rel="noreferrer" href="https://ui.dev/amiresponsive">AmiResponsive</a>
                     </li>
                   </ul>
                 </li>

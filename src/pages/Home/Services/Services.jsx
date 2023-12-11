@@ -84,7 +84,12 @@ const Services = () => {
                   <ul>
                     <li>Chrome DevTools Device Mode</li>
                     <li>
-                      <a target="_blank" rel="noreferrer" href="https://ui.dev/amiresponsive">AmiResponsive</a>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://ui.dev/amiresponsive">
+                        AmiResponsive
+                      </a>
                     </li>
                   </ul>
                 </li>
@@ -97,31 +102,27 @@ const Services = () => {
               </ol>
             </div>
           </div>
-          <div className="md:flex-1" id="contact-me">
-            <SectionHeader title="Contact" />
-            <div>
-              <p>
-                If you&apos;re interested in getting a quote for a project or if
-                you just have some questions, please email me with the details
-                and I will get in touch with you as soon as possible. you can
-                also find me on several social networking sites, my profiles are
-                listed below.
-              </p>
-              <address className="border rounded-box p-5 my-4 overflow-x-auto flex flex-wrap gap-6">
-                  <strong className="italic">
-                    <a className="hover:underline underline-offset-4" href="mailto:hoqe1997@gmail.com">Email</a>
-                  </strong>
-                  <strong className="italic">
-                    <a className="hover:underline underline-offset-4" href="https://www.linkedin.com/in/muhammad-neamul-hoqe-ibn-aroub-69a40429b/">
-                      LinkedIn
-                    </a>
-                  </strong>
-                  <strong className="italic">
-                    <a className="hover:underline underline-offset-4" href="https://www.facebook.com/mdneamulhoqe.neamul">
-                      Facebook
-                    </a>
-                  </strong>
-              </address>
+          <div className="md:flex-1">
+            <SectionHeader title=" Web Development Skills" />
+
+            <div className="mb-4">
+              <h3 className="text-nav mb-1">Front-end Development</h3>
+              <ul className="list-disc list-inside ml-4 mt-2">
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>React.js</li>
+                <li>UI/UX Design Principles</li>
+              </ul>
+            </div>
+
+            <div className="mb-4">
+              <h3 className="text-nav mb-1">Back-end Development</h3>
+              <ul className="list-disc list-inside ml-4 mt-2">
+                <li>Node.js, Express.js</li>
+                <li>Database Management (e.g., MongoDB, MySQL)</li>
+                <li>RESTful API Development</li>
+                <li>Server Configuration and Deployment</li>
+              </ul>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-# [Ibn Aroub Portfolio](http://ibn-aroub-portfolio.surge.sh/)
+# [Ibn Aroub Portfolio](http://ibn-aroub-portfolio.surge.sh)
 
 This project is a personal portfolio website for Ibn Aroub (me) built using ReactJS in VITE. It showcases Ibn Aroub's skills, projects, and other relevant information. There is no database being used in version 0.0.0. For data fetching, we utilize JSON-formatted data in the public folder.
 

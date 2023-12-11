@@ -12,6 +12,30 @@ const Navbar = () => {
       <li>
         <HashLink
           className={
+            location?.hash === "#education"
+              ? "text-main font-semibold"
+              : "text-nav"
+          }
+          smooth
+          to="#education">
+          Education
+        </HashLink>
+      </li>
+      <li>
+        <HashLink
+          className={
+            location?.hash === "#experiences"
+              ? "text-main font-semibold"
+              : "text-nav"
+          }
+          smooth
+          to="#experiences">
+          Experiences
+        </HashLink>
+      </li>
+      <li>
+        <HashLink
+          className={
             location?.hash === "#work" ? "text-main font-semibold" : "text-nav"
           }
           smooth

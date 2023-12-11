@@ -13,7 +13,7 @@ const MyWork = () => {
   const { data: projects = [], isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const res = await axios.get("/projects.json");
+      const res = await axios.get("/projects");
 
       // console.log(res.data);
 
@@ -61,7 +61,7 @@ const MyWork = () => {
                           <div className="card-actions justify-start">
                             {Object.keys(project)?.length
                               ? Object.keys(project)?.map((linkType, idx) => {
-                                  console.log(project[linkType]);
+                                  // console.log(project[linkType]);
 
                                   return (
                                     <div
@@ -72,7 +72,7 @@ const MyWork = () => {
                                           target="_blank"
                                           rel="noreferrer"
                                           to={project[linkType]}
-                                          className="hover:underline underline-offset-4">
+                                          className="hover:underline underline-offset-4 text-content-heading">
                                           Live link
                                         </Link>
                                       ) : project[linkType]?.length === 1 ? (
@@ -80,7 +80,7 @@ const MyWork = () => {
                                           target="_blank"
                                           rel="noreferrer"
                                           to={project[linkType][0]}
-                                          className="hover:underline underline-offset-4">
+                                          className="hover:underline underline-offset-4 text-content-heading">
                                           GitHub Link
                                         </Link>
                                       ) : (
@@ -89,14 +89,14 @@ const MyWork = () => {
                                             target="_blank"
                                             rel="noreferrer"
                                             to={project[linkType][0]}
-                                            className="hover:underline underline-offset-4 pr-5">
+                                            className="hover:underline underline-offset-4 text-content-heading pr-5">
                                             Client Side Link
                                           </Link>
                                           <Link
                                             target="_blank"
                                             rel="noreferrer"
                                             to={project[linkType][1]}
-                                            className="hover:underline underline-offset-4">
+                                            className="hover:underline underline-offset-4 text-content-heading">
                                             Server Side Link
                                           </Link>
                                         </>

@@ -26,7 +26,7 @@ const AboutMe = () => {
               <div>
                 <SectionHeader title={"About me"} />
               </div>
-              <div>
+              <div className="text-main">
                 <p className="text-sm font-mono leading-relaxed mb-5">
                   I&apos;m Muhammad Neamul Hoqe, a skilled MERN stack developer
                   with a passion for crafting dynamic and efficient web
@@ -46,28 +46,32 @@ const AboutMe = () => {
                   intricacies of abstract theories and complex equations, I have
                   discovered a profound synergy between my mathematical
                   background and the dynamic world of web development. My
-                  journey began at Shahjalal University of Science and
-                  Technology (SUST) in 2016, where I embarked on an academic
-                  odyssey that culminated in the completion of both Honours and
-                  Masters degrees. During my time at SUST, I delved deep into
-                  the realm of mathematics, ultimately steering my research
-                  towards the Hyperbolic (wave) equation and the fascinating
-                  realm of Poset Databases [PHP-MYSQL].
+                  journey began at{" "}
+                  <strong>
+                    <i>Shahjalal University of Science and Technology (SUST)</i>
+                  </strong>{" "}
+                  in 2016, where I embarked on an academic odyssey that
+                  culminated in the completion of both Honours and Masters
+                  degrees. During my time at SUST, I delved deep into the realm
+                  of mathematics, ultimately steering my research towards the
+                  Hyperbolic (wave) equation and the fascinating realm of{" "}
+                  <i>Poset Databases</i> [PHP-MYSQL].
                 </p>
 
                 <p className="text-sm font-mono leading-relaxed mb-5">
                   While it may seem like an unexpected leap, my foray into the
                   world of web development was driven by a sense of inspiration
-                  sparked by the HSC ICT book authored by Professor Mujibur
-                  Rahman Chawdhury. It was here that I recognized the immense
-                  potential of technology to bridge the gap between abstract
-                  mathematical concepts and practical real-world applications.
+                  sparked by the HSC ICT book authored by{" "}
+                  <i>Professor Mujibur Rahman Chawdhury</i>. It was here that I
+                  recognized the immense potential of technology to bridge the
+                  gap between abstract mathematical concepts and practical
+                  real-world applications.
                 </p>
               </div>
             </div>
             <div className="flex-1">
               <SectionHeader title={"Looking for a developer"} />
-              <div className="relative">
+              <div className="relative text-main">
                 <p className="text-sm font-mono mb-5">
                   In essence, my journey from mathematics to web development has
                   enriched my skill set, imbuing my work with a deep
@@ -96,10 +100,29 @@ const AboutMe = () => {
                       industry.
                     </p>
 
-                    <p className="text-sm font-mono mb-5">
-                      email:{" "}
-                      <a href="mailto:hoqe1997@gmail.com">hoqe1997@gmail.com</a>
-                    </p>
+                    <address className="border rounded-box p-5 my-4 overflow-x-auto flex flex-wrap gap-6">
+                      <strong className="italic">
+                        <a
+                          className="hover:underline underline-offset-4 text-content-heading"
+                          href="mailto:hoqe1997@gmail.com">
+                          Email
+                        </a>
+                      </strong>
+                      <strong className="italic">
+                        <a
+                          className="hover:underline underline-offset-4 text-content-heading"
+                          href="https://www.linkedin.com/in/muhammad-neamul-hoqe-ibn-aroub-69a40429b/">
+                          LinkedIn
+                        </a>
+                      </strong>
+                      <strong className="italic">
+                        <a
+                          className="hover:underline underline-offset-4 text-content-heading"
+                          href="https://www.facebook.com/mdneamulhoqe.neamul">
+                          Facebook
+                        </a>
+                      </strong>
+                    </address>
                   </div>
                 </div>
               </div>

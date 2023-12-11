@@ -1,29 +1,111 @@
 [
   {
-    "title": "Fruit burst",
-    "description": "Your Ultimate Fruit Destination! Fresh, seasonal produce showcased with recipes, nutritional insights, and tips for a healthy lifestyle. Dive into fruity goodness!",
-    "image": "https://i.ibb.co/931MF7H/fruit-burst-mnh-netlify-app.jpg",
-    "duration": "5 months",
+    "title": "Mahogany Furniture Shop",
+    "description": "An elegant online store offering premium mahogany furniture. Explore a wide range of high-quality, handcrafted pieces for a luxurious home decor experience.",
+    "image": "https://i.ibb.co/ZLFr1Pk/mahogany-furniture-mnh-web-app.jpg",
+    "duration": 5,
     "project": {
-      "repo": ["https://github.com/Md-Neamul-Hoqe/fruit-burst"],
-      "live": "https://fruit-burst-mnh.netlify.app"
+      "repo": [
+        "https://github.com/Md-Neamul-Hoqe/Mahogany-Furniture-brand-shop-Client_Side",
+        "https://github.com/Md-Neamul-Hoqe/Mahogany-Furniture-brand-shop-Server_Side"
+      ],
+      "live": "https://mahogany-furniture-mnh.web.app"
+    }
+  },
+  {
+    "title": "Tourist Guide Application",
+    "description": "Comprehensive tourist guide app offering detailed information about popular destinations, attractions, local cuisines, and activities. Enhance travel experiences and discover hidden gems!",
+    "image": "https://i.ibb.co/wKjrpVW/tourist-guides-mnh-web-app.jpg",
+    "duration": 4,
+    "project": {
+      "repo": [
+        "https://github.com/Md-Neamul-Hoqe/Tourist-Guide-Client",
+        "https://github.com/Md-Neamul-Hoqe/Tourist-Guide-server-side"
+      ],
+      "live": "https://tourist-guides-mnh.web.app"
+    }
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A professional portfolio showcasing my skills, projects, and experiences. Clean and responsive design to highlight my expertise in web development and design.",
+    "image": "https://i.ibb.co/F5z95YP/ibn-aroub-portfolio-surge-sh.jpg",
+    "duration": 1,
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/Portfolio-Ibn-Aroub"],
+      "live": "http://ibn-aroub-portfolio.surge.sh"
+    }
+  },
+  {
+    "title": "Poset Database",
+    "description": "Your Complete Pose Reference! A comprehensive collection of diverse poses for artists, models, and photographers. Explore, reference, and perfect your artistry",
+    "image": "https://i.ibb.co/KjMYYxz/poset-database-mnh-netlify-app.jpg",
+    "duration": 1.5,
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/poset-database-php"],
+      "live": "https://poset-database-mnh.netlify.app"
+    }
+  },
+  {
+    "title": "To-Do List Application",
+    "description": "Efficient and user-friendly to-do list app for managing tasks. Organize your daily activities, set priorities, and boost productivity.",
+    "image": "https://i.ibb.co/BqF7VSX/to-do-mnh-web-app.jpg",
+    "duration": 2,
+    "project": {
+      "repo": [
+        "https://github.com/Md-Neamul-Hoqe/todo-list",
+        "https://github.com/Md-Neamul-Hoqe/todo-list-server"
+      ],
+      "live": "https://to-do-mnh.web.app"
+    }
+  },
+  {
+    "title": "Career Maker",
+    "description": "Forge Your Professional Path! Expert guidance, resources, and tools for career development, job hunting, and skill enhancement. Elevate your career aspirations!",
+    "image": "https://i.ibb.co/CnRxzQk/Rental-Swift-Wheels-career-maker-client-web-app.jpg",
+    "duration": 5,
+    "project": {
+      "repo": [
+        "https://github.com/Md-Neamul-Hoqe/Career-maker_Rental-SwiftWheels-client_side",
+        "https://github.com/Md-Neamul-Hoqe/Career-maker_Rental-SwiftWheels-Server_side"
+      ],
+      "live": "https://ass-11-career-maker-client.web.app"
+    }
+  },
+  {
+    "title": "Education Event Management",
+    "description": "Education Event Mastery: Plan, Organize, and Excel! Seamlessly manage educational events, workshops, and conferences. Empower learners through seamless, impactful experiences.",
+    "image": "https://i.ibb.co/RT8rYpy/education-event-management-web-app.jpg",
+    "duration": 3.5,
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/education-event-management"],
+      "live": "https://education-event-management.web.app"
     }
   },
   {
     "title": "Mogo",
     "description": "Empowering Financial Freedom. Innovative financial solutions and tools for budgeting, credit monitoring, and personal loans, simplifying your path to financial well-being",
     "image": "https://i.ibb.co/BBtJQmQ/mogo.jpg",
-    "duration": "6 months",
+    "duration": 6,
     "project": {
       "repo": ["https://github.com/Md-Neamul-Hoqe/mogo"],
       "live": "https://md-neamul-hoqe.github.io/mogo"
     }
   },
   {
+    "title": "Fruit burst",
+    "description": "Your Ultimate Fruit Destination! Fresh, seasonal produce showcased with recipes, nutritional insights, and tips for a healthy lifestyle. Dive into fruity goodness!",
+    "image": "https://i.ibb.co/931MF7H/fruit-burst-mnh-netlify-app.jpg",
+    "duration": 5,
+    "project": {
+      "repo": ["https://github.com/Md-Neamul-Hoqe/fruit-burst"],
+      "live": "https://fruit-burst-mnh.netlify.app"
+    }
+  },
+  {
     "title": "Dragon News",
     "description": "Roaring Headlines Unleashed! Breaking news, captivating stories, and in-depth analysis covering global events with a fiery touch. Stay informed, ignite curiosity",
     "image": "https://i.ibb.co/FWTqN6W/react-dragon-news-38e6d-web-app.jpg",
-    "duration": "4.5 months",
+    "duration": 4.5,
     "project": {
       "repo": ["https://github.com/Md-Neamul-Hoqe/dragon-news"],
       "live": "https://react-dragon-news-38e6d.web.app"
@@ -33,7 +115,7 @@
     "title": "Summer Sale",
     "description": "Summer Sale Extravaganza! Unbeatable discounts, hot deals on fashion, electronics, and more. Limited time offers to make your summer sizzle!",
     "image": "https://i.ibb.co/nRG1WGL/Web-capture-22-11-2023-114123-summer-sale-mnh-netlify-app.jpg",
-    "duration": "3.5 months",
+    "duration": 3.5,
     "project": {
       "repo": [
         "https://github.com/Programming-Hero-Web-Course4/b8a5-summer-sale-Md-Neamul-Hoqe"
@@ -42,33 +124,10 @@
     }
   },
   {
-    "title": "Poset Database",
-    "description": "Your Complete Pose Reference! A comprehensive collection of diverse poses for artists, models, and photographers. Explore, reference, and perfect your artistry",
-    "image": "https://i.ibb.co/KjMYYxz/poset-database-mnh-netlify-app.jpg",
-    "duration": "1.5 months",
-    "project": {
-      "repo": ["https://github.com/Md-Neamul-Hoqe/poset-database"],
-      "live": "https://poset-database-mnh.netlify.app"
-    }
-  },
-  {
-    "title": "Career Maker",
-    "description": "Forge Your Professional Path! Expert guidance, resources, and tools for career development, job hunting, and skill enhancement. Elevate your career aspirations!",
-    "image": "https://i.ibb.co/DVGDTvw/career-maker-client-web-app.jpg",
-    "duration": "5 months",
-    "project": {
-      "repo": [
-        "https://github.com/Porgramming-Hero-web-course/b8a11-client-side-Md-Neamul-Hoqe",
-        "https://github.com/Porgramming-Hero-web-course/b8a11-server-side-Md-Neamul-Hoqe"
-      ],
-      "live": "https://ass-11-career-maker-client.web.app"
-    }
-  },
-  {
     "title": "Flower Shop",
     "description": "Blooms & Petals: Your Floral Haven! Exquisite bouquets, personalized arrangements, and garden delights for every occasion. Embrace nature's beauty with our floral artistry",
     "image": "https://i.ibb.co/pLm51Bx/flower-shop-mnh-netlify-app.jpg",
-    "duration": "4 months",
+    "duration": 4,
     "project": {
       "repo": ["https://github.com/Md-Neamul-Hoqe/Flower-Shop"],
       "live": "https://flower-shop-mnh.netlify.app"
@@ -78,7 +137,7 @@
     "title": "Developer Portfolio",
     "description": "Coding Canvas: Explore My Developer Portfolio! Showcase of projects, skills, and passion for web development, design, and tech innovations. Crafting digital experiences, one line at a time.",
     "image": "https://i.ibb.co/rbKch2r/md-neamul-hoqe-github-io.jpg",
-    "duration": "6 months",
+    "duration": 6,
     "project": {
       "repo": ["https://github.com/Md-Neamul-Hoqe/developer-portfolio"],
       "live": "https://md-neamul-hoqe.github.io/developer-portfolio"
@@ -88,7 +147,7 @@
     "title": "Delightful Mermaid G.O.A.T",
     "description": "Delightful Mermaid G.O.A.T: Unveiling Oceanic Wonders! Discover enchanting tales, majestic sea creatures, and eco-conscious adventures in this mermaid-inspired treasure trove.",
     "image": "https://i.ibb.co/hRvK872/delightful-mermaid-ffa021-netlify-app.jpg",
-    "duration": "6 months",
+    "duration": 6,
     "project": {
       "repo": ["https://github.com/Md-Neamul-Hoqe/gamer"],
       "live": "https://delightful-mermaid-ffa021.netlify.app"
@@ -99,7 +158,7 @@
     "title": "Donation Campaign",
     "description": "Empower Change: Join Our Donation Campaign! Supporting causes that matter. Make a difference today - every contribution counts toward a brighter tomorrow.",
     "image": "https://i.ibb.co/s2FMs4z/donation-campaign-mnh-surge-sh.jpg",
-    "duration": "3.5 months",
+    "duration": 3.5,
     "project": {
       "repo": [
         "https://github.com/programming-hero-web-course-4/b8a8-donation-campaign-Md-Neamul-Hoqe"
@@ -111,24 +170,12 @@
     "title": "Course Registration",
     "description": "Unlock Knowledge: Seamless Course Registration! Browse, select, and enroll in diverse courses. Start your educational journey hassle-free. Embrace learning, effortlessly.",
     "image": "https://i.ibb.co/zNCwsBk/course-registration-mnh-surge-sh.jpg",
-    "duration": "6 months",
+    "duration": 6,
     "project": {
       "repo": [
         "https://github.com/programming-hero-web-course2/my-course-roster-Md-Neamul-Hoqe"
       ],
       "live": "https://course-registration-mnh.surge.sh"
-    }
-  },
-  {
-    "title": "Education Event Management",
-    "description": "Education Event Mastery: Plan, Organize, and Excel! Seamlessly manage educational events, workshops, and conferences. Empower learners through seamless, impactful experiences.",
-    "image": "https://i.ibb.co/RT8rYpy/education-event-management-web-app.jpg",
-    "duration": "3.5 months",
-    "project": {
-      "repo": [
-        "https://github.com/programming-hero-web-course-4/b8a9-event-management-Md-Neamul-Hoqe"
-      ],
-      "live": "https://education-event-management.web.app"
     }
   }
 ]

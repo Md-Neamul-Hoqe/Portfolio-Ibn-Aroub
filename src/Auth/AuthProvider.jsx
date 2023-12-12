@@ -5,11 +5,14 @@ export const AuthContext = new createContext(null);
 
 const AuthProvider = ({ children }) => {
   // console.log(children);
-  
+  const location = window.location;
+  console.log(location);
+
   const maxWidth = "max-w-screen-xl mx-auto";
 
   const authInfo = {
     maxWidth,
+    hash: location?.hash,
   };
 
   return (

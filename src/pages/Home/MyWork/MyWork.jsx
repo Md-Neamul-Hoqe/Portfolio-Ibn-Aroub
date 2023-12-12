@@ -4,11 +4,13 @@ import SectionHeader from "../../Shared/SectionHeader";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const MyWork = () => {
   const [projectLength, setProjectLength] = useState(6);
   const { maxWidth } = useAuthContext();
   const axios = useAxiosSecure();
+
 
   const { data: projects = [], isLoading } = useQuery({
     queryKey: ["projects"],

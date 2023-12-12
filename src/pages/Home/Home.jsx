@@ -30,11 +30,8 @@ const Home = () => {
       sectionStart: servicesStart,
       sectionEnd: servicesEnd,
     } = scrollSection("services");
-    const {
-      section: aboutSection,
-      sectionStart: aboutStart,
-      sectionEnd: aboutEnd,
-    } = scrollSection("about-section");
+    const { sectionStart: aboutStart, sectionEnd: aboutEnd } =
+      scrollSection("about-section");
 
     const {
       section: workSection,
@@ -117,10 +114,18 @@ const Home = () => {
         className="btn btn-circle bg-nav border-0 text-white fixed z-50 bottom-12 right-12">
         <BsDownload className="text-xl font-black" />
       </a>
-      <ToastContainer />
+
       <Helmet>
-        <title>Ibn Aroub | {section || "MERN Stack Developer"}</title>
+        <title>
+          Ibn Aroub |
+          {section
+            ?.split("-")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ") || "MERN Stack Developer"}
+        </title>
       </Helmet>
+
+      <ToastContainer />
     </main>
   );
 };

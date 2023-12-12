@@ -5,10 +5,10 @@ const Experiences = () => {
   const { maxWidth } = useAuthContext();
   return (
     <section id="experiences" className="bg-[#2d2413] pb-10 shadow-lg">
-      <div className={maxWidth}>
+      <div className={`max-lg:px-5 ${maxWidth}`}>
         <hr className="border-nav mb-10" />
         <SectionHeader title="Experiences" />
-        <div className="flex max-md:flex-wrap">
+        <div className="flex max-md:flex-col">
           <div className="mb-4 flex-1">
             <h3 className="text-lg font-semibold">
               Master of Science in Mathematics

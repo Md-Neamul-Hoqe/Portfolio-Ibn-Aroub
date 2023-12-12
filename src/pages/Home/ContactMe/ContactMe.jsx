@@ -29,7 +29,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section id="contact-me" className="py-12 max-sm:px-5 bg-[#201b0e]">
+    <section id="contact-me" className="py-12 max-lg:px-5 bg-[#201b0e]">
       <div className={`${maxWidth}`}>
         <SectionHeader title="Contact Me" />
         <div className="flex max-md:flex-wrap gap-16">

@@ -21,7 +21,7 @@ const AboutMe = () => {
         }}>
         <div className="overlay">
           <div
-            className={`md:flex gap-6 py-12 max-sm:px-5 max-sm:text-justify ${maxWidth}`}>
+            className={`lg:flex gap-6 py-12 max-lg:px-5 max-md:text-justify ${maxWidth}`}>
             <div className="flex-1">
               <div>
                 <SectionHeader title={"About me"} />

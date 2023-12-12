@@ -4,20 +4,16 @@ import SectionHeader from "../../Shared/SectionHeader";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
 
 const MyWork = () => {
   const [projectLength, setProjectLength] = useState(6);
   const { maxWidth } = useAuthContext();
   const axios = useAxiosSecure();
 
-
   const { data: projects = [], isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
       const res = await axios.get("/projects");
-
-      // console.log(res.data);
 
       return res?.data;
     },
@@ -25,10 +21,12 @@ const MyWork = () => {
 
   return (
     <section id="my-work" className="py-10">
-      <div className={maxWidth}>
+      <div className={` max-lg:px-5 ${maxWidth}`}>
         <SectionHeader title={"My Work"} />
         {isLoading ? (
-          "loading..."
+          <div className="min-h-[calc(100vh/3)] flex justify-center items-center">
+            <span className="loading loading-ring loading-lg"></span>
+          </div>
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

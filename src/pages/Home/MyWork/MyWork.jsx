@@ -22,7 +22,7 @@ const MyWork = () => {
   return (
     <section id="my-work" className="py-10">
       <div className={` max-lg:px-5 ${maxWidth}`}>
-        <SectionHeader title={"My Work"} />
+        <SectionHeader title={"My Works"} />
         {isLoading ? (
           <div className="min-h-[calc(100vh/3)] flex justify-center items-center">
             <span className="loading loading-ring loading-lg"></span>

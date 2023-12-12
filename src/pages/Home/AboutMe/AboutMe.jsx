@@ -12,6 +12,7 @@ const AboutMe = () => {
       style={{
         backgroundImage: `url(${overlay})`,
         backgroundOrigin: "center",
+        backgroundSize: "100%",
       }}
       id="about-section">
       <section

@@ -3,6 +3,9 @@ import useAuthContext from "../../../Hooks/useAuthContext";
 import SectionHeader from "../../Shared/SectionHeader";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import { toast } from "react-toastify";
+import { FaLocationDot } from "react-icons/fa6";
+import { BsEnvelope } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const ContactMe = () => {
   const { maxWidth } = useAuthContext();
@@ -33,11 +36,21 @@ const ContactMe = () => {
       <div className={`${maxWidth}`}>
         <SectionHeader title="Contact Me" />
         <div className="flex max-md:flex-wrap gap-16">
-          <p className="flex-1 text-lg text-justify">
-            If you&apos;re interested in getting a quote for a project or if you
-            just have some questions, please email me with the details and I
-            will get in touch with you as soon as possible.
-          </p>
+          <div className="flex-1">
+            <p className="text-lg text-justify">
+              If you&apos;re interested in getting a quote for a project or if
+              you just have some questions, please email me with the details and
+              I will get in touch with you as soon as possible.
+            </p>
+            <address className="border-s-2 ps-4 my-10 text-content-heading">
+              <p className="flex gap-2 items-center">
+                <FaLocationDot className="text-main"/> Rupganj, Narayanganj, Bangladesh
+              </p>
+              <p className="flex gap-2 items-center">
+                <BsEnvelope className="text-main"/> <Link to="mailto:hoqe1997@gmail.com">Email</Link>
+              </p>
+            </address>
+          </div>
           <div className="flex-1">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
               <h2 className="text-nav mb-1">Feel free to text</h2>

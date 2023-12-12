@@ -11,29 +11,30 @@ const Experiences = () => {
         <div className="flex max-md:flex-col">
           <div className="mb-4 flex-1">
             <h3 className="text-lg font-semibold">
-              Master of Science in Mathematics
+              Research Associate (Web Application Manager)
             </h3>
             <p className="text-xs">
-              Shahjalal University of Science and Technology (SUST)
+              Research Lab, Department of Mathematics, SUST.
             </p>
-            <p className="text-xs">2020 - 2021 [Exam held on 2023]</p>
+            <p className="text-xs">July, 2023 - current</p>
             <p className="mt-2 text-main">
-              Completed a Master&apos;s degree with a focus on the Hyperbolic
-              (wave) equation and Poset Database research.
+              Research Project: Under the research project ps\2023\1\19 <br />
+              Responsibility: Web Application Management which built in previous
+              research. <br />
             </p>
           </div>
 
           <div className="mb-4 flex-1">
-            <h3 className="text-lg font-semibold">
-              Bachelor of Science in Mathematics
-            </h3>
+            <h3 className="text-lg font-semibold">Research Student</h3>
             <p className="text-xs">
-              Shahjalal University of Science and Technology (SUST)
+              Research Lab, Department of Mathematics, SUST.
             </p>
-            <p className="text-xs">2016 - 2020 [Exam held on 2022]</p>
+            <p className="text-xs">July, 2022 - Jun, 2023</p>
             <p className="mt-2 text-main">
-              Achieved a Bachelor&apos;s degree with a strong foundation in
-              mathematics.
+              Research Project: Under the research project ps\2022\1\20 <br />
+              Responsibility: Developing and implementing computer codes. <br />
+              This is an Partially Ordered Set Representation Site Managed by
+              Research Lab, Department of Mathematics, SUST.
             </p>
           </div>
         </div>

@@ -36,8 +36,7 @@ const ContactMe = () => {
           <p className="flex-1 text-lg text-justify">
             If you&apos;re interested in getting a quote for a project or if you
             just have some questions, please email me with the details and I
-            will get in touch with you as soon as possible. you can also find me
-            on several social networking sites, my profiles are listed below.
+            will get in touch with you as soon as possible.
           </p>
           <div className="flex-1">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">

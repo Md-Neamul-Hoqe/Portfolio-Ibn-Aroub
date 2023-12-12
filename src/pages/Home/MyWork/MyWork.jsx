@@ -46,23 +46,12 @@ const MyWork = () => {
                               position: "top",
                             }}></div>
                         </div>
-                        {/* <figure className="h-60 border-2 p-1 object-fill">
-                        <img
-                          className=" w-full"
-                          src={image}
-                          alt={title}
-                          width="100"
-                          height="100"
-                        />
-                      </figure> */}
                         <div className="card-body">
                           <h2 className="card-title">{title}</h2>
                           <p>{description?.split(".")[0]}</p>
                           <div className="card-actions justify-start">
                             {Object.keys(project)?.length
                               ? Object.keys(project)?.map((linkType, idx) => {
-                                  // console.log(project[linkType]);
-
                                   return (
                                     <div
                                       key={idx}

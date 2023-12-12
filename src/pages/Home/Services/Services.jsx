@@ -108,7 +108,7 @@ const Services = () => {
             <div className="mb-4">
               <h3 className="text-nav mb-1">Front-end Development</h3>
               <ul className="list-disc list-inside ml-4 mt-2">
-                <li>HTML5, CSS3, JavaScript</li>
+                <li>HTML5, CSS3, Bootstrap 5, Tailwindcss, JavaScript, PHP</li>
                 <li>Responsive Web Design</li>
                 <li>React.js</li>
                 <li>UI/UX Design Principles</li>

@@ -11,11 +11,9 @@ import Experiences from "./Experiences/Experiences";
 import { Helmet } from "react-helmet-async";
 import { useEffect, useState } from "react";
 import scrollSection from "../../utils/scrollSection";
-import { useLocation, useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
   const [section, setSection] = useState(null);
   // const documentHeight = document.body.offsetHeight;
   const [documentHeight, setDocumentHeight] = useState(
@@ -23,8 +21,6 @@ const Home = () => {
   );
   // console.log(documentHeight);
   useEffect(() => {
-    setDocumentHeight(document.body.offsetHeight);
-
     const {
       section: servicesSection,
       sectionStart: servicesStart,
@@ -58,45 +54,34 @@ const Home = () => {
     } = scrollSection("contact-me");
 
     window.onload = window.addEventListener("scroll", () => {
+      setDocumentHeight(document.body.offsetHeight);
       const height = screen.availHeight / 2;
       const scrollPosition = window.scrollY + height;
 
       if (aboutStart < scrollPosition && scrollPosition < aboutEnd) {
         setSection(null);
-        location.hash = ``;
-        navigate(location);
       } else if (workStart < scrollPosition && scrollPosition < workEnd) {
         setSection(workSection);
-        location.hash = `#${workSection}`;
-        navigate(location);
       } else if (
         educationStart < scrollPosition &&
         scrollPosition < educationEnd
       ) {
         setSection(educationSection);
-        location.hash = `#${educationSection}`;
-        navigate(location);
       } else if (
         experiencesStart < scrollPosition &&
         scrollPosition < experiencesEnd
       ) {
         setSection(experiencesSection);
-        location.hash = `#${experiencesSection}`;
-        navigate(location);
       } else if (
         servicesStart < scrollPosition &&
         scrollPosition < servicesEnd
       ) {
         setSection(servicesSection);
-        location.hash = `#${servicesSection}`;
-        navigate(location);
       } else if (contactStart < scrollPosition && scrollPosition < contactEnd) {
         setSection(contactSection);
-        location.hash = `#${contactSection}`;
-        navigate(location);
       }
     });
-  }, [documentHeight, location, navigate]);
+  }, [documentHeight]);
 
   return (
     <main>
@@ -117,7 +102,7 @@ const Home = () => {
 
       <Helmet>
         <title>
-          Ibn Aroub |
+          Ibn Aroub |{" "}
           {section
             ?.split("-")
             .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
